@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +17,7 @@ body {
 }
 
 body::before {
-    background-image: url("img/candado.png");
+    background-image: url("./img/candado.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -36,7 +38,7 @@ body::before {
     border-radius: 24px;
     border: 1px solid #1875E8;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
-    background-image: url("img/Ruido.png");
+    background-image: url("./img/Ruido.png");
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
